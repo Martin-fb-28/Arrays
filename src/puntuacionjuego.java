@@ -11,7 +11,7 @@ public class puntuacionjuego {
         int[] partidas = {0, 1, 2, 3, 4, 5};
         for (int i = 0; i < partidas.length; i++) {
             System.out.println("\nEs la partida número: " + partidas[i]);
-            puntuacion = random.nextInt(101);
+            puntuacion = random.nextInt(101) ;
             System.out.println("En esta partida ha conseguido: " + puntuacion + " puntos");
             puntuaciontotal += puntuacion;
             if (numalto < puntuacion) {
